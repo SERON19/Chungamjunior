@@ -1,0 +1,171 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin-right: 10px;
+  margin-left: 20px;
+  background-repeat: no-repeat;
+  background-size:200vh;
+  background-color:white;
+  min-height: 75%;
+    /* background-image: url(back1.jpg); */
+
+
+}
+
+
+nav{
+  padding-bottom: 20px;
+  color: white;
+  padding-top: 10px;
+  background-color: rgb(13, 72, 13);
+  background-color: rgb(13, 72, 13);
+}
+
+nav a{
+  margin-right: 86px;
+  text-decoration: none;
+
+}
+nav a.active{
+  text-decoration: aqua;
+  font-weight: bold;
+  }
+ 
+.footer{
+  background-color: rgb(13, 72, 13);
+  
+}
+.container{
+  max-width: 1170px;
+  background-color: rgb(13, 72, 13);
+  margin: 0 auto;
+  }
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  ul{
+    list-style: none;
+  }
+  .footer-col{
+    color: white;
+    width: 30%;
+    padding: 0 15px;
+  }
+  .footer-col h4{
+    font-size: 18px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+
+  } 
+  .footer ul li a:hover{
+    color: floralwhite;
+
+  }
+  .loginbox{
+    max-width: 500px;
+    width: 100%;
+    background-color: rgb(64, 152, 80);
+    margin: 20px auto;
+    padding: 30px;
+    box-shadow: 1px 1px 2px rgb(70, 90, 74);
+  }
+h1{
+  margin: 0;
+  padding: 0 0 20px;
+  font-size: 22px;
+}
+.loginbox input[type ="text"],  input[type ="password"]
+{
+border: none;
+border-bottom: 1px solid #fff;
+background: transparent;
+outline: none;
+height: 40px;
+
+}
+.wrapper{
+  max-width: 500px;
+  width: 100%;
+  background-color: rgb(64, 152, 80);
+  margin: 20px auto;
+  padding: 30px;
+  box-shadow: 1px 1px 2px rgb(70, 90, 74);
+}
+.wrapper  .form .input_field{
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+.wrapper .form .input_field .textarea{
+  resize: none;
+  height: 125px;
+}
+.wrapper .form .input_field .custom_select{
+  position: relative;
+  width: 100%;
+height: 37px;
+}
+.wrapper .form .inputfield label{
+  width: 200px;
+  color: #757575;
+  margin-right: 10px;
+ font-size: 14px;
+}
+.wrapper.form .input_field  .custom_select select{
+  border: 1px solid #d5dbd9;
+  width: 100%;
+  height: 100%;
+  padding: 8px 10px;
+  border-radius: 3px;
+  outline: none;
+}
+.wrapper .title{
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color:white;
+  text-transform: uppercase;
+  text-align: center;
+
+}
+.wrapper .form{
+  width: 100%;
+}
+.about{
+  min-height: 55vh;
+}
+.contenthome{
+  max-width: 500px;
+  color: #fff;
+  width: 100%;
+  background-color: rgb(25, 92, 37);
+  margin: 20px auto;
+  padding: 30px;
+  box-shadow: 1px 1px 2px rgb(70, 90, 74);
+
+}
+.lawyers{
+  max-width: 500px;
+  color: #fff;
+  width: 100%;
+  background-color: rgb(25, 92, 37);
+  margin: 20px auto;
+  padding: 30px;
+  box-shadow: 1px 1px 2px rgb(70, 90, 74);
+}
+.logo{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+ 
+}
